@@ -1,0 +1,61 @@
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+    height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url('https://i.simpalsmedia.com/marketplace/products/original/5e91a6fccb9daae860378b0277497a3a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('https://gomagcdn.ro/domains/kinderauto.ro/files/product/original/trotineta-electrica-twister-crosser-x1-1000w-36v-10-inch-copie-445-7121.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('https://www.ubuy.vn/productimg/?image=aHR0cHM6Ly9pNS53YWxtYXJ0aW1hZ2VzLmNvbS9hc3IvNmRmNmZkMDEtYjI1YS00MGIwLTkzYjEtMjI3MzM2MmU3NjcwLjM0N2EyYjJiNmJhYWFjMjJiZmM2ZDNiZjllMjU0MzRlLmpwZWc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #introCarousel {
+        margin-top: -58.59px;
+    }
+}
+
+/*.navbar .nav-link {*/
+/*    color: #fff !important;*/
+/*}*/
+
+.navbar{
+    background: white;
+}
+
+body{
+    font-family: "Roboto", serif;
+}
+
+h1, h2, h3, h4, h5, strong{
+    font-family: "Poppins", sans-serif;
+}
+
+h5.card-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+
+}
+
+.btn, .nav-link{
+    font-family: "Open Sans", sans-serif;
+}
